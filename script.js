@@ -45,7 +45,7 @@ const mainFunction = () => {
 // This makes sure the function runs once the page before scrolling, to avoid some unexpected behaviours:
 mainFunction();
 
-window.addEventListener("resize", () => {
-  console.log("reloaded");
-  location.reload();
-});
+// window.addEventListener("resize", () => {
+//   console.log("reloaded"); //This was having a shaky effect on mobile screesn.
+//   location.reload();
+// });
